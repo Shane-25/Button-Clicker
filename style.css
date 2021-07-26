@@ -1,0 +1,202 @@
+.topbox {
+    width: 585px;
+    height: 50px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    margin-left: 512px;
+    justify-content:space-between;
+}
+.dojo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#search {
+    background-color: white;
+    color: lightgray;
+    width: 280px;
+    height: 25px;
+    border: 2px solid black;
+    text-align: left;
+}
+#loginbutton {
+    color: white;
+    background-color: royalblue;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 1px black;
+    width: 60px;
+    height: 25px;
+    margin: 5px 20px;
+}
+.container {
+    width: 585px;
+    height: 500px;
+    /*background-color: grey;*/
+    display: flex;
+    align-items: center;
+    margin-left: 512px;
+}
+.leftbox {
+    width: 375px;
+    height: 500px;
+    /*background-color: blue;*/
+}
+.practbox {
+    width: 369px;
+    height: 190px;
+    background-color: white;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+.toppractbox {
+    width: 349px;
+    height: 130px;
+    /*background-color: orange;*/
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+.toppractbox1 {
+    width: 100px;
+    height: 130px;
+    /* background-color:orchid; */
+    text-align: center;
+    line-height: 90%;
+}
+#n1, #n2, #n3, #n4, #n5, #n6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#n2, #n4 {
+    font-style: italic;
+}
+.toppractbox2 {
+    width: 205px;
+    height: 130px;
+    /* background-color:palegoldenrod; */
+    margin-left: 20px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+#n5 {
+    text-align: left;
+}
+#n6 {
+    color: royalblue;
+    text-decoration: underline;
+}
+.bottompractbox {
+    width: 100px;
+    height: 53px;
+    /*background-color:paleturquoise;*/
+    margin-left: 10px;
+    text-align: center;
+}
+#toplikesbutton {
+    color: black;
+    background-color:orange;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 1px black;
+    width: 90px;
+    height: 25px;
+    margin: 5px 5px;
+}
+.progbox {
+    width: 369px;
+    height: 190px;
+    background-color:white;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+.topprogbox {
+    width: 349px;
+    height: 130px;
+    /*background-color: orange;*/
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+.topprogbox1 {
+    width: 100px;
+    height: 130px;
+    /*background-color:orchid;*/
+    text-align: center;
+    line-height: 90%;
+}
+#b1, #b2, #b3, #b4, #b5, #b6, #b7 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#b2, #b4 {
+    font-style: italic;
+}
+.topprogbox2 {
+    width: 205px;
+    height: 130px;
+    /*background-color:palegoldenrod;*/
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+#b5 {
+    text-align: left;
+}
+#b6 {
+    color: royalblue;
+    text-decoration: underline;
+}
+#b7 {
+    font-style: bolder;
+}
+.bottomprogbox {
+    width: 100px;
+    height: 53px;
+    /*background-color:paleturquoise;*/
+    margin-left: 10px;
+    text-align: center;
+}
+#bottomlikesbutton {
+    color: black;
+    background-color:orange;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 1px black;
+    width: 90px;
+    height: 25px;
+    margin: 5px 5px;
+}
+.rightbox {
+    width: 200px;
+    height: 500px;
+    /*background-color: green;*/
+    margin-left: 10px;
+}
+.dojobox {
+    width: 194px;
+    height: 160px;
+    background-color: white;
+    border: 3px solid black;
+    margin-top: 10px;
+    line-height: 85%;
+}
+.textbox {
+    /*background-color: cornflowerblue;*/
+    width: auto;
+    height: 50px;
+    margin-left: 10px;
+}
+.addbox {
+    /*background-color: brown;*/
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#add-button {
+    color: black;
+    background-color:lightgreen;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 1px rgb(116, 88, 88);
+    width: 175px;
+    height: 25px;
+    margin: 5px 0px;
+}

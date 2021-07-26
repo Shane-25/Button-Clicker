@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bigbox">
+        <div class="topbox">
+            <h1 class="dojo">Dojonary</h1>
+            <button id="search">Search</button>
+            <button id="loginbutton" onclick="logout(this)">Login</button>
+        </div>
+        <div class="container">
+            <div class="leftbox">
+                <div class="practbox">
+                    <div class="toppractbox">
+                        <div class="toppractbox1">
+                            <h1 id="n1">ninja</h1>
+                            <h3 id="n2">noun</h3>
+                            <p id="n3">plural: <span id="n4">ninjas</span></p>
+                        </div>
+                        <div class="toppractbox2">
+                            <p id="n5">A practictioner skilled in the <span id="n6">Japanese</span> art of <span id="n6">ninjutsu</span></p>
+                        </div>
+                    </div>
+                    <div class="bottompractbox">
+                        <button id="toplikesbutton" onclick="alert('ninja was liked')"> 13 likes</button>
+                    </div>
+                </div>
+                <div class="progbox">
+                    <div class="topprogbox">
+                        <div class="topprogbox1">
+                            <h1 id="b1">ninja</h1>
+                            <h2 id="b2">noun</h2>
+                            <p id="b3">plural: <span id="b4">ninjas</span></p>
+                        </div>
+                        <div class="topprogbox2">
+                            <p id="b5">A <span id="b6">programmer</span> who breaks down problems with <span id="b6">zen</span>-like focus</p>
+                        </div>
+                    </div>
+                    <div class="bottomprogbox">
+                        <button id="bottomlikesbutton" onclick="alert('ninja was liked')">37 likes</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rightbox">
+                <div class="dojobox">
+                    <div class="textbox">
+                        <h2>Dojonary is</h2>
+                        <h2>defined by <span id="b7">YOU</span></h2>
+                    </div>
+                    <div class="addbox">
+                        <button id="add-button" onclick="hide(this)">Add Definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="buttonclicker.js"></script>
+</body>
+</html>
